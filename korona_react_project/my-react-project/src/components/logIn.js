@@ -16,6 +16,8 @@ import { useState, useEffect } from 'react';
 import { getAllPersonal_details } from '../services/personal_detail_service';
 import { getAllCorona_detail } from '../services/corona_details_service'
 
+
+
 const theme = createTheme();
 
 export default function LogIn_manager() {
@@ -43,7 +45,13 @@ export default function LogIn_manager() {
   function handleSubmit() {
     const user = all_client.find((item) => item.name === username && item.identity === identity);
     if (user) {
-
+         
+           
+      setAlert(
+        <Stack sx={{ width: '100%' }} spacing={2}>
+          <Alert severity="error">seccces!</Alert>
+        </Stack>
+      );  
     } else {
       setAlert(
         <Stack sx={{ width: '100%' }} spacing={2}>

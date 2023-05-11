@@ -14,7 +14,6 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
 import Avatar from '@mui/material/Avatar';
 import moment from 'moment'
-
 // import { ListItem, ListItemAvatar, ListItemText } from '@material-ui/core';
 
 export default function ClientTable() {
@@ -29,34 +28,6 @@ export default function ClientTable() {
    } },[])
 
    console.log(personalDetails)
-
-
-//        return { ...personalDetail.toObject(), ...coronaDetail.toObject() };
-  //     });
-  //    // setClients(mergedDetails);
-
-  //   }
-  //   fetchData();
-  // }, []);
-    // const Search = styled('div')(({ theme }) => ({
-    // position: 'relative',
-    // borderRadius: theme.shape.borderRadius,
-    // backgroundColor: alpha(theme.palette.common.white, 0.15),
-    // '&:hover': {
-    //   backgroundColor: alpha(theme.palette.common.white, 0.25),
-    // },
-  //   marginRight: theme.spacing(2),
-  //   marginLeft: 0,
-  //   width: '100%',
-  //   [theme.breakpoints.up('sm')]: {
-  //     marginLeft: theme.spacing(3),
-  //     width: 'auto',
-  //   },
-  // }));
-
-  
-
-
 
   const [image, setImage] = useState('');
 

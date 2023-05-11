@@ -10,7 +10,6 @@ import LogIn_manager from './components/logIn_manager'
 import ClientTable from './components/all_clients'
 // import  SearchAppBar from './components/add_corona_details'
 import CoronaSummary from './components/corona_survey'
-import AllMembers from './components/try'
 function App() {
   return (
     <BrowserRouter>

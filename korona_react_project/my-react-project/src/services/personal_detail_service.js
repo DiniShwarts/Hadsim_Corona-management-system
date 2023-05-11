@@ -1,7 +1,7 @@
 import axios from './axios.js'
 
 export function getAllPersonal_details() {
-    return fetch('http://localhost:4003/Personal_detail')
+    return fetch('http://localhost:4004/Personal_detail')
         .then(res => res.json())
         .then(data => data)
         .catch(err => { console.log(err) })
@@ -17,7 +17,7 @@ export function addPersonal_details(newPersonal_details) {
         body: JSON.stringify(newPersonal_details),
     };
 
-    return fetch('http://localhost:4003/Personal_detail', requestOptions)
+    return fetch('http://localhost:4004/Personal_detail', requestOptions)
         .then(res => res.json())
         .then(data => data)
         .catch(err => { console.log(err) })

@@ -1,0 +1,53 @@
+/* .profile-picture {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    border: 4px solid black; /* Add th is line to set the border to solid and black */
+  /* }
+  
+  .profile-picture-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  } */
+  
+  /* .profile-picture-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+/*   
+  .profile-picture-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  } */ 
+  
+  /* .profile-picture-placeholder span {
+    font-size: 40px;
+    color: black;
+    
+  } */
+  /* .homePage_button{
+    background-color: black; color: white; padding: 15px 40px; margin-right: 50px
+}
+.input_login{
+    padding: 15px 40px; 
+} */
+
